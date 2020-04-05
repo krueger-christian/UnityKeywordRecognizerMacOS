@@ -36,7 +36,7 @@ In this example we use the four keywords *left*, *right*, *up* and *down* to mov
 
    <img src="Documentation/005.jpg" width="300px"></br></br>
    <img src="Documentation/006.jpg" width="300px"></br></br>
-In our example we repeat this for all keywords.
+In our example we repeat this for all keywords.  
    <img src="Documentation/007.jpg" width="300px"></br></br>
 
 5. If you run the scene, the KeywordRecognizer starts. Usually, a microphone icon appears to indicate the keywords that have been recognized.  
