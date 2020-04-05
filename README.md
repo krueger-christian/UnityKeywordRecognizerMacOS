@@ -8,8 +8,8 @@
 
 ## Introduction
 
-This project provides an asset for keyword recognition to be used in Unity. It uses the speech recognition provided by macOS. The asset consists of a C# script that should be attached to only one (!) object per scene and a binary plug-in bundle written in Objective-C that enables to use particular functions of the [NSSpeechRecognizer class](https://developer.apple.com/documentation/appkit/nsspeechrecognizer) from within Unity.  
-Keywords can be easily defined from within the Unity editor using the respective *Inspector* field of the component to which the C# script is attached. It simply requires to define a keyword and a callback event being triggered after recognition. This is described in the following section *Installation Example*. The recognition seems to be somewhat slow. On a MacBook Pro, 2.3 GHz Intel Core i7, 16 GB 1600 MHz DDR3, it takes about 1 to 1.5 seconds to detect a defined keyword.
+This project provides an asset for keyword recognition to be used in Unity. It uses the speech recognition provided by macOS. The asset includes a C# script, which should only be attached to one (!) object per scene and a plug-in bundle written in Objective-C (integrated as binary file), which allows to use specific functions of Apple's [NSSpeechRecognizer class](https://developer.apple.com/documentation/appkit/nsspeechrecognizer) from within Unity.  
+Keywords can be easily defined here from within the Unity editor by using the corresponding *Inspector* field of the prefab (or the component to which the C# script is attached). For each keyword at least one callback event must be defined, which is triggered after recognition. This is described in the following section *Installation Example*. The detection seems to be a bit slow. On a MacBook Pro, 2.3 GHz Intel Core i7, 16 GB 1600 MHz DDR3, it takes about 1 to 1.5 seconds to detect a defined keyword.
 
 
 ## Installation Example
