@@ -27,7 +27,7 @@ In the Inspector field of the prefab you should see the KeywordRecognizer script
 In this example we use the four keywords *left*, *right*, *up* and *down* to move an object. Therefore the size is four.
 <img src="Documentation/004.jpg" width="300px">
 
-4. Now open the section of each element (keyword). Type your keyword in the *Keyword* field. Define an event that will be triggered if the keyword is recognized. To do this, drag the object to which the script defining your event belongs into the object field of the *Call Back ()* section. In the example shown, an object named *Cube* has been dragged into the field. A script named *MoveCube* has already been added to *Cube*. The script contains actions like *moveLeft()* or *moveRight()*. Select whatever the script of your object provides. In this example, we use the function *moveLeft()* for the keyword *left*.  
+4. Now open the section of each element (keyword). Type your keyword in the *Keyword* field. Define an event that will be triggered if the keyword is recognized. To do this, drag the object to which the script defining your event belongs into the object field of the *Callback ()* section. In the example shown, an object named *Cube* has been dragged into the field. A script named *MoveCube* has already been added to *Cube*. The script contains actions like *moveLeft()* or *moveRight()*. Select whatever the script of your object provides. In this example, we use the function *moveLeft()* for the keyword *left*.  
 <br><img src="Documentation/005.jpg" width="300px"></br>
 <br><img src="Documentation/006.jpg" width="300px"></br></br>
 In our example we repeat this for all keywords.
