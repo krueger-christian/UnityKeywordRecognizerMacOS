@@ -15,26 +15,33 @@ Keywords can be easily defined from within the Unity editor using the respective
 ## Installation Example
 
 1. Import the KeywordRecognizer package to your Unity project:  
-<img src="Documentation/000.jpg" width="300px"></br>  
+
+   <img src="Documentation/000.jpg" width="300px"></br></br>
 
 2. Drag the imported KeywordRecognizer prefab from the Assets folder of your *Project* window to your scene.  
-<img src="Documentation/001.jpg" width="300px"></br><br>
-In the Inspector field of the prefab you should see the KeywordRecognizer script.
-<img src="Documentation/002.jpg" width="300px" align="center">
+
+   <img src="Documentation/001.jpg" width="300px"></br></br>
+In the Inspector field of the prefab you should see the KeywordRecognizer script.  
+
+   <img src="Documentation/002.jpg" width="300px"></br></br>
 
 3. Open the *Keywords* section and define the size of keywords.  
-<img src="Documentation/003.jpg" width="300px"></br></br>
-In this example we use the four keywords *left*, *right*, *up* and *down* to move an object. Therefore the size is four.
-<img src="Documentation/004.jpg" width="300px">
+
+   <img src="Documentation/003.jpg" width="300px"></br></br>
+In this example we use the four keywords *left*, *right*, *up* and *down* to move an object. Therefore the size is four.  
+
+   <img src="Documentation/004.jpg" width="300px"></br></br>
 
 4. Now open the section of each element (keyword). Type your keyword in the *Keyword* field. Define an event that will be triggered if the keyword is recognized. To do this, drag the object to which the script defining your event belongs into the object field of the *Callback ()* section. In the example shown, an object named *Cube* has been dragged into the field. A script named *MoveCube* has already been added to *Cube*. The script contains actions like *moveLeft()* or *moveRight()*. Select whatever the script of your object provides. In this example, we use the function *moveLeft()* for the keyword *left*.  
-<br><img src="Documentation/005.jpg" width="300px"></br>
-<br><img src="Documentation/006.jpg" width="300px"></br></br>
-In our example we repeat this for all keywords.
-<br><img src="Documentation/007.jpg" width="300px"></br>
 
-5. If you run the scene, the KeywordRecognizer starts. Usually, a microphone icon appears to indicate the keywords that have been recognized.
-<br><img src="Documentation/008.jpg" width="150px"></br>
+   <img src="Documentation/005.jpg" width="300px"></br></br>
+   <img src="Documentation/006.jpg" width="300px"></br></br>
+In our example we repeat this for all keywords.
+   <img src="Documentation/007.jpg" width="300px"></br></br>
+
+5. If you run the scene, the KeywordRecognizer starts. Usually, a microphone icon appears to indicate the keywords that have been recognized.  
+
+   <img src="Documentation/008.jpg" width="150px"></br></br>
 
 6. After importing the KeywordRecognizer package you can find this example in your Assets directory under *Example/Scenes/ExampleScene*.
 
