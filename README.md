@@ -19,8 +19,8 @@ Keywords can be easily defined from within the Unity editor using the respective
 
 2. Drag the imported KeywordRecognizer prefab from the Assets folder of your *Project* window to your scene.  
 <img src="Documentation/001.jpg" width="300px"></br><br>
-In the Inspector field of the prefab you should see the KeywordRecognizer script.  
-<img src="Documentation/002.jpg" width="300px">
+In the Inspector field of the prefab you should see the KeywordRecognizer script.
+<img src="Documentation/002.jpg" width="300px" align="center">
 
 3. Open the *Keywords* section and define the size of keywords.  
 <img src="Documentation/003.jpg" width="300px"></br></br>
